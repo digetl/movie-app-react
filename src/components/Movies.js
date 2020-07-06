@@ -24,7 +24,8 @@ class Movies extends Component {
                 },
                 {
                   id: 4,
-                  name: "The Lego Movie 2: The Second Part", url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
+                  name: "The Lego Movie 2: The Second Part",
+                  url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
                 },
                 {
                   id: 5,
@@ -39,7 +40,8 @@ class Movies extends Component {
         return(
             <Fragment>
                 <div className="header-title">Good films to see this year!</div>
-                <MovieList/>
+                <MovieList movies={this.state.movies}/>
+                <h4 className="more-movies"><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases</a></h4>
             </Fragment>
 
         );

@@ -1,0 +1,47 @@
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+body {
+    margin: 5%;
+    text-decoration: none;
+    max-width: 70vw;
+}
+
+p, h1, h2, h3, h4 {
+    font-family: Roboto;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.header-title {
+    font-family: Roboto;
+    font-size: 2em;
+    text-decoration: none;
+    margin:0 1rem;
+
+    border-bottom: 3px solid grey;
+    padding-bottom: 0.5rem;
+
+    text-align: center;
+}
+
+.more-movies {
+    font-family: Roboto;
+    font-size: 1.4em;
+    text-decoration: none;
+    padding-top: 0.5rem;
+    margin:1rem;
+    border-top: 3px solid grey;
+}
+
+.movie-list {
+    margin:1rem;
+    padding:1rem 0;
+    background-color: hotpink;
+}
+
+a .movie-list{
+    color: ivory;
+}
